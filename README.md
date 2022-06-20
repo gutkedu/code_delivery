@@ -1,10 +1,10 @@
-# Full Cycle Immersion
+# Code Delivery - Full Cycle Immersion
 
-## System design diagram
+## :small_orange_diamond:System design diagram
 
-![Diagram](./.github/system_diagram.png)
+<center><img src="./.github/system_diagram.png" alt="system_diagram" width="600"/></center>
 
-## Technologies
+## :rocket: Technologies
 
 - Simulator: Golang
 - Backend: Nest.js & MongoDB
@@ -13,6 +13,4 @@
 - Elasticsearch & Kibana
 - Docker & Kubernetes
 
-### References:
-
-[Fullcycle](https://imersao.fullcycle.com.br/evento/)
+### :closed_book: References: [Fullcycle](https://imersao.fullcycle.com.br/evento/)
