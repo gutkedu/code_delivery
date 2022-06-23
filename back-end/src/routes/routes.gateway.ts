@@ -8,7 +8,11 @@ import {
 } from '@nestjs/websockets';
 import { Socket, Server } from 'socket.io';
 
-@WebSocketGateway()
+@WebSocketGateway({
+  cors: {
+    origin: '*',
+  },
+})
 export class RoutesGateway implements OnModuleInit {
   private kafkaProducer: Producer;
 
